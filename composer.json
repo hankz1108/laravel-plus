@@ -1,5 +1,24 @@
 {
-    "require": {
-        "laravel/laravel": "7.*"
+    "name": "hankz/laravel-plus",
+    "description": "A Laravel-based feature extension package that further subdivides the original structure, including Repository, Server, Presenter, and more.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hankz\\LaravelPlus\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "hankz",
+            "email": "hankz1108@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "php": ">=7.4",
+        "laravel/framework": "^7.0"
     }
 }
